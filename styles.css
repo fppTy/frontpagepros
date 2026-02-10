@@ -305,4 +305,10 @@ input:focus,textarea:focus{outline:2px solid rgba(224,122,95,.35);border-color:r
   font-size: 16px;
   max-width: 60ch;
 }
+.logo-img{
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
 
