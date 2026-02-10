@@ -41,14 +41,16 @@ li{margin:6px 0}
 .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
 
 .brand{display:flex;gap:12px;align-items:center}
-.logo{
-  width:44px;height:44px;border-radius:14px;
-  display:grid;place-items:center;
-  font-weight:800;letter-spacing:.5px;
-  background:linear-gradient(135deg, var(--accent), var(--warm));
-  color:white;
-  box-shadow:0 10px 25px rgba(224,122,95,.25);
+.logo {
+  width: 48px;              /* was 44px */
+  height: 48px;             /* was 44px */
+  border-radius: 16px;      /* slightly rounder */
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--accent), var(--warm));
+  box-shadow: 0 10px 25px rgba(224,122,95,.25);
 }
+
 .brand-text{display:flex;flex-direction:column}
 .brand-name{font-weight:800}
 .brand-tag{font-size:13px;color:var(--muted)}
@@ -310,5 +312,6 @@ input:focus,textarea:focus{outline:2px solid rgba(224,122,95,.35);border-color:r
   width: auto;
   display: block;
 }
+
 
 
